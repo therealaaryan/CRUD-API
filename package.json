@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/therealaaryan/node.js_CRUD/issues"
   },
-  "homepage": "https://github.com/therealaaryan/node.js_CRUD#readme"
+  "homepage": "https://github.com/therealaaryan/node.js_CRUD#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
