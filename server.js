@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require('express');
 const app = express();
 const Product = require('./models/productModel')
@@ -9,6 +10,8 @@ app.get('/', (req, res) => {
     res.send("hello")
 })
 
+const MONGO_URL = process.env.MONGO_URL
+const PORT = process.env.PORT || 3000
 
 app.post('/products', async(req, res) => {
     try {
@@ -58,10 +61,10 @@ app.delete('/products/del', async(req, res) => {
     }
 })
 
-mongoose.connect('mongodb+srv://new_user:QHSycqHt3L5lagGg@apipractice.fz2rcqe.mongodb.net/Node-API?retryWrites=true&w=majority')
+mongoose.connect(MONGO_URL)
 .then(() => {
-    app.listen(3000, () => {
-        console.log("Node API app is running on port 3000")
+    app.listen(PORT, () => {
+        console.log(`Node API app is running on port ${PORT}`)
     })
     console.log("Connected to database")
 }).catch((error) => {
