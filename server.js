@@ -3,6 +3,7 @@ const express = require('express');
 const app = express();
 const productRoute = require('./routes/productRoute')
 const mongoose = require('mongoose')
+const errorMiddleware = require('./middleware/errorMiddleware')
 
 app.use(express.json())
 
@@ -14,6 +15,8 @@ const MONGO_URL = process.env.MONGO_URL
 const PORT = process.env.PORT || 3000
 
 app.use('/api', productRoute);
+
+app.use(errorMiddleware);
 
 mongoose.connect(MONGO_URL)
 .then(() => {
