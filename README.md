@@ -88,6 +88,6 @@ Contributions are welcome! If you find a bug or want to add a new feature, pleas
 4) Submit a pull request explaining your changes.
 
 
-## Licence
+## License
 
 This project is licensed under the ISC License.
