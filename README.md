@@ -18,8 +18,13 @@ This repository contains a CRUD (Create, Read, Update, Delete) API built using N
 
 Before you begin, ensure you have the following installed:
 
-- Node.js (version x.x.x)
-- MongoDB (version x.x.x)
+- node.js (version 18.16.0)
+- cors (version 2.8.5)
+- dotenv (version 16.3.1)
+- express (version 4.18.2)
+- express-async-handler (version 1.2.0)
+- mongoose (version 7.4.3)
+- nodemon (version 3.0.1)
 
 ## Installation
 
