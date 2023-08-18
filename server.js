@@ -4,8 +4,10 @@ const app = express();
 const productRoute = require('./routes/productRoute')
 const mongoose = require('mongoose')
 const errorMiddleware = require('./middleware/errorMiddleware')
+const cors = require('cors');
 
 app.use(express.json())
+app.use(cors())
 
 app.get('/', (req, res) => {
     res.send("hello")
