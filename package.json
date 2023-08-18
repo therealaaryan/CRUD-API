@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/therealaaryan/node.js_CRUD.git"
+    "url": "git+https://github.com/therealaaryan/CRUD-API.git" 
   },
   "author": "Aaryan Mehta",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/therealaaryan/node.js_CRUD/issues"
+    "url": "https://github.com/therealaaryan/CRUD-API/issues"
   },
-  "homepage": "https://github.com/therealaaryan/node.js_CRUD#readme",
+  "homepage": "https://github.com/therealaaryan/CRUD-API#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
