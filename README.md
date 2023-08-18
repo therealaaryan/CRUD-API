@@ -52,11 +52,11 @@ The API will be available at http://localhost:3000.
 
 The following endpoints are available:
 
-GET /api/ : Get a list of all products.
-GET /api/:id : Get a specific product by ID.
-POST /api/ : Create a new product.
-PUT /api/:id : Update an existing product by ID.
-DELETE /api/ : Delete a product by entering the JSON.
+1) GET /api/ : Get a list of all products.
+2) GET /api/:id : Get a specific product by ID.
+3) POST /api/ : Create a new product.
+4) PUT /api/:id : Update an existing product by ID.
+5) DELETE /api/ : Delete a product by entering the JSON.
 
 
 ## Data Schema
