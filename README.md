@@ -28,8 +28,26 @@ Before you begin, ensure you have the following installed:
 ```bash
 git clone https://github.com/therealaaryan/CRUD-API.git
 cd CRUD-API
+```
+2. Install dependencies:
 
+```bash
+npm install
+```
+
+3. Rename .env.example to .env and update the MongoDB connection URL if necessary.
 
 ## Usage
+
+To start the API server, run the following command:
+
+```bash
+node server.js
+```
+
+The API will be available at http://localhost:3000.
+
+
+## Endpoints
 
 
