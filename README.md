@@ -70,3 +70,19 @@ DELETE /api/ : Delete a product by entering the JSON.
 
 
 ## Error Handling
+
+The API provides appropriate error handling and validation for various scenarios. In case of an error, you will receive a JSON response with an error message and status code.
+
+## Contributing
+
+Contributions are welcome! If you find a bug or want to add a new feature, please follow these steps:
+
+1) Fork the repository.
+2) Create a new branch for your feature/fix.
+3) Make your changes and test thoroughly.
+4) Submit a pull request explaining your changes.
+
+
+## Licence
+
+This project is licensed under the ISC License.
